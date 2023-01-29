@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #000000 0%, #303030 100%);
+    color: white;
+    font-family: sans-serif;
+}
+/*  ------------------------- HEADER LOGO -------------------------- */
+.box-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socials a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+.socials img{
+    width: 30px;
+    color: white;
+}
+.name-logo{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: grey;
+}
+.mikael{
+    color: white;
+}
+
+/* -----------------------------HEADER LINK--------------------------- */
+.links{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    padding-left: 50px;
+}
+.linkedin{
+    padding: 20px;
+    font-size: 30px;
+}
+.contact{
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid green;
+    border-radius: 10px;
+    color:white;
+    margin-left: 50px;
+}
+.contact:hover{
+    background-color: green;
+}
+
+/* -------------------------- MAIN (NOME )------------------------- */
+.container-main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.text-left{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.hello{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.name{
+    color: greenyellow;
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+.experience{
+    font-size: 50px;
+    margin-bottom:30px ;
+}
+.experience-years{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.number{
+    font-size: 70px;
+    color: grey;
+}
+.text-number{
+    font-size: 20px;
+    margin-left: 15px;
+    color: grey;
+}
+#projects-completed{
+    margin-left: 50px;
+}
+.foto-perfil{
+    display: flex;
+    justify-content: center;
+    width:500px ;
+    height: 500px;
+    background-color:#2d2d2d;
+    border-radius: 50%;
+}
+.imagem-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.perfil{
+    width: 800px;
+}
+.html{
+    width: 80px;
+   right: 50px;
+}
