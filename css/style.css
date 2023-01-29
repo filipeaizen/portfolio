@@ -5,10 +5,14 @@
 }
 body{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: linear-gradient(to bottom right, #000000 0%, #303030 100%);
+    background-size: cover;
     color: white;
     font-family: sans-serif;
+}
+.content{
+    height: 100%;
 }
 /*  ------------------------- HEADER LOGO -------------------------- */
 .box-menu{
@@ -47,7 +51,10 @@ body{
     text-decoration: none;
     font-size: 30px;
     color: white;
-    padding-left: 50px;
+    margin-left: 50px;
+}
+.links:hover{
+    color: greenyellow;
 }
 .linkedin{
     padding: 20px;
@@ -58,13 +65,14 @@ body{
     height: 45px;
     font-size: 18px;
     background-color: transparent;
-    border: 1px solid green;
+    border: 1px solid greenyellow;
     border-radius: 10px;
     color:white;
     margin-left: 50px;
 }
 .contact:hover{
-    background-color: green;
+    color: green;
+    background-color: greenyellow;
 }
 
 /* -------------------------- MAIN (NOME )------------------------- */
@@ -75,7 +83,7 @@ body{
 }
 .text-left{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: column;
 }
 .hello{
@@ -84,7 +92,7 @@ body{
 }
 .name{
     color: greenyellow;
-    font-size: 50px;
+    font-size: 80px;
     margin-bottom: 60px;
 }
 .experience{
@@ -95,6 +103,7 @@ body{
     display: flex;
     align-items: center;
     text-transform: uppercase;
+    margin-bottom: 200px;
 }
 .number{
     font-size: 70px;
@@ -127,6 +136,184 @@ body{
     width: 800px;
 }
 .html{
+    display: flex;
+    position: relative;
     width: 80px;
-   right: 50px;
+}
+/* -----------------------ABOUT-ME ---------------------------- */
+.container-aboutme{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 250px;
+}
+.about-me-title{
+    color: greenyellow;
+    margin-bottom: 30px;
+}
+.about-me{
+    width: 800px;
+    font-size: 30px;
+}
+.text-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.developer{
+    width: 550px;
+    height: 150px;
+    background-color: #4f4f4f;
+    margin-top: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.developer-web{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.chevron-span{
+    color: greenyellow;
+    font-size: 40px;
+}
+.link-developer{
+    font-size: 20px;
+    color: greenyellow;
+}
+/* ----------------------------- SKILLS ----------------------------- */
+.container-skills{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(to right top, #303030, #252525, #1b1b1b, #111111, #000000); 
+}
+.title-sklill{
+    display: flex;
+    margin-left: 130px;
+    margin-bottom: 50px;
+}
+.skill{
+    margin-top: 55px;
+    color: greenyellow;
+    font-size: 50px;
+}
+.box-skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caracter{
+    color: white;
+}
+.imagem-skill{
+    display: flex;
+}
+.html{
+    width: 200px;
+    margin-right: 35px;
+}
+/* ------------------------------ PROJECT ------------------------------------- */
+.container-project{
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(to right top, #000000, #111111, #1b1b1b, #252525, #303030);
+}
+.title-project{
+    display: flex;
+    color: greenyellow;
+    font-size: 50px;
+    margin-left: 130px;
+    padding-top: 55px;
+}
+.project-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.imagem-project{
+    width:500px ;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 1px solid greenyellow;
+}
+/* -----------------------------------FOOTER---------------------------- */
+
+.rodape{
+    color: greenyellow;
+    text-align: center;
+}
+.rodape a{
+    text-decoration: none;
+    color: greenyellow;
+}
+
+
+
+@media screen and (max-width:560px){
+    body{
+        width: 100%;
+    }
+    .box-menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .name-logo{
+        font-size: 30px;
+    }
+    .box-link{
+        display: flex;
+        margin-right: 60px;
+        margin-top: 10px;
+    }
+    .links{
+        font-size: 20px;
+    }
+    .socials{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .socials a{
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    .linkedin{
+        display: none;
+    }
+    .contact{
+        width: 150px;
+        height:30px;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    .container-main{
+        width: 100%;
+    }
+    .perfil{
+        width: 300px;
+        
+    }
+    .foto-perfil{
+        width: 250px;
+        height: 250px;
+    }
+    .hello{
+        font-size: 15px;
+    }
+    .nome{
+        font-size: 20px;
+    }
+    .experience{
+        font-size: 20px;
+    }
+    .number{
+        font-size: 20px;
+    }
+    .text-number{
+        font-size: 20px;
+    }
+   
 }
