@@ -260,6 +260,9 @@ body{
     body{
         width: 100%;
     }
+    .content{
+        width: 100%;
+    }
     .box-menu{
         display: flex;
         flex-direction: column;
@@ -271,9 +274,22 @@ body{
         display: flex;
         margin-right: 60px;
         margin-top: 10px;
+        flex-wrap: wrap;
+    }
+    .box-link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: 20px;
     }
     .links{
-        font-size: 20px;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .contact{
+        width: 70px;
+        height: 30px;
     }
     .socials{
         display: flex;
@@ -295,29 +311,106 @@ body{
     }
     .container-main{
         width: 100%;
+        margin-top: 50px;
+        flex-direction: column;
     }
     .perfil{
-        width: 300px;
+        width: 350px;
         
     }
     .foto-perfil{
         width: 250px;
         height: 250px;
+        margin-left: 45px;
+        margin-top: 20px;
+       
     }
+    .imagem-perfil{
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 200px;
+    }
+    
     .hello{
-        font-size: 15px;
+        text-align: center;
+        font-size: 40px;
     }
     .nome{
-        font-size: 20px;
+        text-align: center;
+        font-size: 65px;
     }
     .experience{
-        font-size: 20px;
+        margin-left: 10px;
+        font-size: 35px;
     }
     .number{
-        font-size: 20px;
+        margin-left: 10px;
+        font-size: 60px;
     }
     .text-number{
-        font-size: 20px;
+        font-size: 12px;
+        margin-top: 10px;
     }
-   
+    .container-aboutme{
+        width: 100%;
+        flex-direction: column;
+    }
+    .cards{
+        width: 100%;
+    }
+    .developer{
+        width: 100%;
+    }
+    .about-me{
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+    }
+    .about-me-title{
+        margin-left: 15px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .developer{
+        width: 300px;
+        height: 100px;
+    }
+   .developer-web{
+    font-size: 25px;
+   }
+   .container-skills{
+    width: 100%;
+    height: 300px;
+   }
+   .box-skill{
+    width: 100%;
+   }
+   .imagem-skill{
+    flex-wrap: wrap;
+   }
+   .skill{
+    font-size: 25px;
+   }
+   .html{
+    margin-top: 10px;
+    width: 50px;
+   }
+   .container-project{
+    width: 100%;
+   }
+   .title-project{
+    font-size: 25px;
+   }
+   .project-link{
+    width: 100%;
+    flex-wrap: wrap;
+   }
+   .imagem-project{
+    width: 350px;
+    margin-left: 5px;
+   }
 }
