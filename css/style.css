@@ -217,6 +217,9 @@ body{
     width: 200px;
     margin-right: 35px;
 }
+#cruzeiro-do-sul{
+    width: 283px;
+}
 /* ------------------------------ PROJECT ------------------------------------- */
 .container-project{
     width: 100%;
@@ -398,6 +401,12 @@ body{
    .html{
     margin-top: 10px;
     width: 50px;
+   }
+   #formacao{
+    height: 400px
+   }
+   #cruzeiro-do-sul{
+    width: 200px;
    }
    .container-project{
     width: 100%;
