@@ -394,6 +394,7 @@ body{
    }
    .imagem-skill{
     flex-wrap: wrap;
+    margin-left: 15px;
    }
    .skill{
     font-size: 25px;
