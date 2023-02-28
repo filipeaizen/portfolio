@@ -220,6 +220,20 @@ body{
 #cruzeiro-do-sul{
     width: 283px;
 }
+/* ------------------------------FORMAÇÃO ACADEMICA ---------------------------- */
+#formacao{
+    height: 600px;
+}
+#cruzeiro-do-sul{
+    width: 400px;
+    border-radius: 10px;
+}
+.academica{
+    margin-top: 10px;
+}
+.em-andamento{
+    color: greenyellow;
+}
 /* ------------------------------ PROJECT ------------------------------------- */
 .container-project{
     width: 100%;
@@ -238,6 +252,37 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+}
+.box-project-{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title-project-{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.link-project{
+    margin-top: 25px;
+  
+}
+.repositorio{
+    width: 50px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid greenyellow;
+    background-color: rgb(114, 182, 11);
+    padding: 15px;
+    
+}
+.demo{
+    width: 50px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(150, 246, 5);
+    background-color: rgb(62, 102, 2);
+    padding: 15px;
 }
 
 .imagem-project{
@@ -404,13 +449,18 @@ body{
     width: 50px;
    }
    #formacao{
-    height: 400px
+    height: 1150px
+   }
+   #formacao-academica{
+    display: flex;
+    flex-direction: column;
    }
    #cruzeiro-do-sul{
-    width: 120px;
+    width: 300px;
    }
    .container-project{
     width: 100%;
+    height: 1150px;
    }
    .title-project{
     font-size: 25px;
